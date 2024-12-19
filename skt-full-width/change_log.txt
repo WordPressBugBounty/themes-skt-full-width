@@ -91,3 +91,6 @@ Version 1.7
 Version 1.8	
 	i)  Updated demo link.
 	ii) Compatibility with WordPress 6.4
+	
+Version 1.9
+	i)  Removed footer link.		
