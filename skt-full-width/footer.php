@@ -12,22 +12,22 @@
     <div class="clear"></div>
 	<footer id="colophon" class="site-footer" role="contentinfo">
     	<div class="foot_col_container">
-            <div class="footer-menu"><h2>Main Menu</h2>
+            <div class="footer-menu"><h2><?php esc_html_e('Main Menu','skt-full-width'); ?></h2>
                 <?php wp_nav_menu( array('theme_location' => 'primary', 'container' => '', 'menu_class' => '') ); ?>
             </div><!-- footer-menu -->
-            <div class="social"><h2>Get In Touch</h2>
+            <div class="social"><h2><?php esc_html_e('Get In Touch','skt-full-width'); ?></h2>
                 <div class="container">
                     <?php if ( of_get_option('facebook', true) != "") { ?>
-                     <a target="_blank" href="<?php echo esc_url(of_get_option('facebook', true)); ?>" title="Facebook" ><div class="fb">Facebook</div></a>
+                     <a target="_blank" href="<?php echo esc_url(of_get_option('facebook', true)); ?>" title="<?php esc_attr_e('Facebook','skt-full-width'); ?>" ><div class="fb"><?php esc_html_e('Facebook','skt-full-width'); ?></div></a>
                      <?php } ?>
                     <?php if ( of_get_option('twitter', true) != "") { ?>
-                     <a target="_blank" href="<?php echo esc_url("http://twitter.com/". esc_attr(of_get_option('twitter', true)) ); ?>" title="Twitter" ><div class="twitt">Twitter</div></a>
+                     <a target="_blank" href="<?php echo esc_url("https://twitter.com/". esc_attr(of_get_option('twitter', true)) ); ?>" title="<?php esc_attr_e('Twitter','skt-full-width'); ?>" ><div class="twitt"><?php esc_html_e('Twitter','skt-full-width'); ?></div></a>
                      <?php } ?>
                      <?php if ( of_get_option('google', true) != "") { ?>
-                     <a target="_blank" href="<?php echo esc_url(of_get_option('google', true)); ?>" title="Google Plus" > <div class="gplus">Google +</div></a>
+                     <a target="_blank" href="<?php echo esc_url(of_get_option('google', true)); ?>" title="<?php esc_attr_e('Google Plus','skt-full-width'); ?>" > <div class="gplus"><?php esc_html_e('Google +','skt-full-width'); ?></div></a>
                      <?php } ?>
                      <?php if ( of_get_option('linkedin', true) != "") { ?>
-                     <a target="_blank" href="<?php echo esc_url(of_get_option('linkedin', true)); ?>" title="Linkedin" ><div class="linkedin">Linkedin</div></a>
+                     <a target="_blank" href="<?php echo esc_url(of_get_option('linkedin', true)); ?>" title="<?php esc_attr_e('Linkedin','skt-full-width'); ?>" ><div class="linkedin"><?php esc_html_e('Linkedin','skt-full-width'); ?></div></a>
                      <?php } ?>
                     
                 </div>
@@ -36,8 +36,8 @@
                  <h3 class="company-title"><?php echo esc_html( of_get_option('contact1', true) ); ?></h3>
                  <p><?php echo esc_html( of_get_option('contact2', true) ); ?></p>
                  <p><?php echo esc_html( of_get_option('contact3', true) ); ?></p>
-                 <p><strong>Phone :</strong> <?php echo esc_html( of_get_option('contact4', true) ); ?></p>
-                 <p><strong>Email :</strong> <?php echo sanitize_email( of_get_option('contact5', true) ); ?></p>
+                 <p><strong><?php esc_html_e('Phone :','skt-full-width'); ?></strong> <?php echo esc_html( of_get_option('contact4', true) ); ?></p>
+                 <p><strong><?php esc_html_e('Email :','skt-full-width'); ?></strong> <?php echo sanitize_email( of_get_option('contact5', true) ); ?></p>
             </div><!-- contact -->
             <div class="clear"></div>
         </div>
@@ -52,7 +52,13 @@
         </div><!-- bottom-left -->    
         <div class="bottom-right">
 			<?php do_action( 'skt_full_width_credits' ); ?>
-			<?php echo esc_html('Full Width Theme by SKT Themes'); ?>
+			<?php echo esc_html('Theme By'); ?> <?php if( is_home() && is_front_page() || is_home() || is_front_page()) {?>
+        <a href="<?php echo esc_url('https://www.sktthemes.org/shop/skt_full_width/');?>" target="_blank">
+        <?php esc_html_e('SKT Full Width','skt-full-width'); ?>
+        </a>
+        <?php } else {?>
+        <?php esc_html_e('SKT Full Width','skt-full-width'); ?>
+        <?php } ?>
 		</div><!-- bottom-right --><div class="clear"></div>
         </div><!-- footer-bottom -->
 	</div>

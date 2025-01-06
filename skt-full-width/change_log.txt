@@ -94,3 +94,6 @@ Version 1.8
 	
 Version 1.9
 	i)  Removed footer link.		
+	
+Version 1.10
+	i)  Footer credentials tweaked and Compatibility check with WordPress version 6.7			

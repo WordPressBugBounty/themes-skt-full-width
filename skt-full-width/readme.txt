@@ -4,7 +4,7 @@ Contributors: sonalsinha21
 Requires at least: 5.0
 Requires PHP:  7.4
 Tested up to: 6.7
-Version: 1.9
+Version: 1.10
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
 Tags:custom-background, two-columns, right-sidebar, left-sidebar, custom-menu, theme-options, threaded-comments, featured-images, custom-header, editor-style
