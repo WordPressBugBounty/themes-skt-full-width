@@ -43,7 +43,7 @@ function optionsframework_options() {
 		'name' => __('Copyright Text', 'skt-full-width'),
 		'desc' => __('Some Text regarding copyright of your site, you would like to display in the footer.', 'skt-full-width'),
 		'id' => 'footertext2',
-		'std' => 'Full Width 2023. All Rights Reserved',
+		'std' => 'Full Width 2025. All Rights Reserved',
 		'type' => 'text');
 
 	$options[] = array(

@@ -1,10 +1,9 @@
 === SKT Full Width ===
 
 Contributors: sonalsinha21
-Requires at least: 5.0
-Requires PHP:  7.4
-Tested up to: 6.7
-Version: 1.10
+Requires PHP:  5.6
+Tested up to: 6.8
+Version: 1.11
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
 Tags:custom-background, two-columns, right-sidebar, left-sidebar, custom-menu, theme-options, threaded-comments, featured-images, custom-header, editor-style
@@ -93,7 +92,7 @@ License URL: http://www.gnu.org/licenses/gpl-2.0.html
 		
 Thank you for Using SKT Full Width Wordpress Theme.
 
-i) SKT Full Width Wordpress Theme has been created by SKT Themes team: https://www.sktthemes.org
+i) SKT Full Width Wordpress Theme has been created by SKT Themes team: https://www.sktthemes.org/
 ii) It comes under GNU General Public License. More Details about the License can be found in the license.txt file included in the theme.
 	
 ## Copyrights for Resources used in this theme.

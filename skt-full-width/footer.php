@@ -52,13 +52,9 @@
         </div><!-- bottom-left -->    
         <div class="bottom-right">
 			<?php do_action( 'skt_full_width_credits' ); ?>
-			<?php echo esc_html('Theme By'); ?> <?php if( is_home() && is_front_page() || is_home() || is_front_page()) {?>
-        <a href="<?php echo esc_url('https://www.sktthemes.org/shop/skt_full_width/');?>" target="_blank">
-        <?php esc_html_e('SKT Full Width','skt-full-width'); ?>
-        </a>
-        <?php } else {?>
-        <?php esc_html_e('SKT Full Width','skt-full-width'); ?>
-        <?php } ?>
+				<?php echo esc_html('Design By'); ?> <a href="<?php echo esc_url('https://www.sktthemes.org/');?>" target="_blank">
+        	<?php esc_html_e('SKT Themes','skt-full-width'); ?>
+        	</a>
 		</div><!-- bottom-right --><div class="clear"></div>
         </div><!-- footer-bottom -->
 	</div>

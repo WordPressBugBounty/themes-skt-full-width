@@ -97,3 +97,6 @@ Version 1.9
 	
 Version 1.10
 	i)  Footer credentials tweaked and Compatibility check with WordPress version 6.7			
+	
+Version 1.11	
+	i)  Resolved the error in the inc/custom-header.php file and verified compatibility with WordPress version 6.8	

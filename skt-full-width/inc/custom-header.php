@@ -80,6 +80,4 @@ function skt_full_width_admin_header_image() {
 }
 endif; // skt_full_width_admin_header_image 
 
-
-define('SKT_URL','https://www.sktthemes.org');
 define('SKT_THEME_URL','https://www.sktthemes.org/themes');
