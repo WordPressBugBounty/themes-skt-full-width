@@ -52,8 +52,8 @@
         </div><!-- bottom-left -->    
         <div class="bottom-right">
 			<?php do_action( 'skt_full_width_credits' ); ?>
-				<?php echo esc_html('Design By'); ?> <a href="<?php echo esc_url('https://www.sktthemes.org/');?>" target="_blank">
-        	<?php esc_html_e('SKT Themes','skt-full-width'); ?>
+				<?php echo esc_html('Design By'); ?> <a href="<?php echo esc_url('https://www.sktthemes.org/shop/skt_full_width/');?>" rel="nofollow noopener noreferrer" target="_blank">
+        	<?php esc_html_e('SKT Full Width','skt-full-width'); ?>
         	</a>
 		</div><!-- bottom-right --><div class="clear"></div>
         </div><!-- footer-bottom -->

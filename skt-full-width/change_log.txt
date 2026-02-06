@@ -100,3 +100,8 @@ Version 1.10
 	
 Version 1.11	
 	i)  Resolved the error in the inc/custom-header.php file and verified compatibility with WordPress version 6.8	
+	
+Version 2.0
+	i)   Compatible with PHP 8.3
+	ii)  Compatible with WordPress 6.9
+	iii) Footer credentials tweaked	
